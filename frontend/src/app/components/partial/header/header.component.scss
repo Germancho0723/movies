@@ -1,0 +1,10 @@
+/* 2 variables Sass*/
+$navbar-bg-color: #dc3545;
+$a-text-color: white;
+
+.navbar {
+  background-color: $navbar-bg-color;
+}
+a.navbar-brand {
+  color: $a-text-color;
+}

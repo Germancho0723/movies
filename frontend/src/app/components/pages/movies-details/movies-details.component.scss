@@ -1,5 +1,9 @@
-@charset "UTF-8";
 /* 4 variables Sass*/
+$rem-widht: 15rem;
+$ren-font: 1rem;
+$color: #a30000;
+$font-size: 40px;
+
 .container {
   display: flex;
   justify-content: center;
@@ -9,8 +13,8 @@
 }
 
 .container > * {
-  min-width: 15rem;
-  max-width: 60rem;
+  min-width: $rem-widht;
+  max-width: $rem-widht * 4;
 }
 
 .imghead {
@@ -23,27 +27,25 @@
 }
 
 .nombre {
-  font-size: 2.3rem;
+  font-size: $ren-font * 2.3;
   font-weight: bold;
 }
 
 .content {
-  font-size: 1.1rem;
+  font-size: $ren-font * 1.1;
   align-items: left;
 }
 
 .card-header {
-  font-size: 1.2rem;
+  font-size: $ren-font * 1.2;
   font-weight: bold;
 }
 
 span.nombre {
-  color: #a30000; /* Cambiar por el color deseado */
-  font-size: 40px; /* Cambiar por el tamaño de fuente deseado */
+  color: $color; /* Cambiar por el color deseado */
+  font-size: $font-size; /* Cambiar por el tamaño de fuente deseado */
 }
 
 p.card-text {
-  color: #a30000; /* Cambiar por el color deseado */
+  color: $color; /* Cambiar por el color deseado */
 }
-
-/*# sourceMappingURL=movies-details.component.css.map */
