@@ -38,12 +38,12 @@
 }
 
 span.nombre {
-  color: #a30000; /* Cambiar por el color deseado */
-  font-size: 40px; /* Cambiar por el tamaño de fuente deseado */
+  color: #a30000; /* Cambiar color */
+  font-size: 40px; /* Cambiar tamaño de fuente */
 }
 
 p.card-text {
-  color: #a30000; /* Cambiar por el color deseado */
+  color: #a30000; /* Cambiar color */
 }
 
 /*# sourceMappingURL=movies-details.component.css.map */
