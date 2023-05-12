@@ -4,7 +4,8 @@ $a-text-color: white;
 
 .navbar {
   background-color: $navbar-bg-color;
-}
-a.navbar-brand {
-  color: $a-text-color;
+  &-brand {
+    color: $a-text-color;
+    font-weight: bold;
+  }
 }

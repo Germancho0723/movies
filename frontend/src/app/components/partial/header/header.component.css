@@ -2,9 +2,9 @@
 .navbar {
   background-color: #dc3545;
 }
-
-a.navbar-brand {
+.navbar-brand {
   color: white;
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=header.component.css.map */
