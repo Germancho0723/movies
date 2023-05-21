@@ -7,6 +7,8 @@ import { HeaderComponent } from './components/partial/header/header.component';
 import { HomeComponent } from './components/pages/home/home.component';
 import { GenerosComponent } from './components/partial/generos/generos.component';
 import { MoviesDetailsComponent } from './components/pages/movies-details/movies-details.component';
+import { LoginPageComponent } from './components/pages/login-page/login-page.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -14,12 +16,14 @@ import { MoviesDetailsComponent } from './components/pages/movies-details/movies
     HeaderComponent,
     HomeComponent,
     GenerosComponent,
-    MoviesDetailsComponent
+    MoviesDetailsComponent,
+    LoginPageComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

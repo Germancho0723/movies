@@ -2,6 +2,7 @@
   <div class="container-fluid">
     <a class="navbar-brand" routerLink="/">Pelis U-Compensar</a>
     <div class="d-flex">
+      <a class="navbar-session" routerLink="/login">Iniciar sesión</a>
       <input #s class="form-control me-2" type="text" placeholder="Buscar" aria-label="Buscar"
         (keyup.enter)="buscar(s.value)" [value]="search">
       <button class="btn btn-light" (click)="buscar(s.value)">Buscar</button>
