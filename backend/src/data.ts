@@ -830,3 +830,21 @@ export const sample_genero:any[] = [
   {name:'Thriller'},
   {name:'Misterio'},
 ]
+
+export const sample_users: any[] = [
+  {
+    nombre: "German Torres",
+    email: "galonsotorres@ucompensar.edu.co",
+    password: "9513570",
+    pais: "Colombia",
+    isAdmin: true,
+  },
+
+  {
+    nombre: "Usuario Pruebas",
+    email: "pruebas@ucompensar.edu.co",
+    password: "123456",
+    pais: "España",
+    isAdmin: true,
+  },
+]
