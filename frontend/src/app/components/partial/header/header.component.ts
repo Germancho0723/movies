@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Route, Router } from '@angular/router';
+import { UserService } from 'src/app/services/user.service';
+import { User } from 'src/app/shared/models/user';
 
 @Component({
   selector: 'app-header',
@@ -8,15 +10,24 @@ import { ActivatedRoute, Route, Router } from '@angular/router';
 })
 export class HeaderComponent implements OnInit {
   search='';
-  constructor(activatedRoute:ActivatedRoute, private router:Router){
+  user!:User;
+  constructor(activatedRoute:ActivatedRoute, private router:Router, private userService:UserService){
     activatedRoute.params.subscribe((params) =>{
       if(params.search) this.search = params.search;
 
+    })
+
+    userService.userObservable.subscribe((newUser)=> {
+      this.user = newUser;
     })
   }
 
   ngOnInit(): void {
 
+  }
+
+  logout(){
+    this.userService.logout();
   }
 
   buscar(term:string):void{

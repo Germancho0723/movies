@@ -835,7 +835,7 @@ export const sample_users: any[] = [
   {
     nombre: "German Torres",
     email: "galonsotorres@ucompensar.edu.co",
-    password: "9513570",
+    password: "654321",
     pais: "Colombia",
     isAdmin: true,
   },

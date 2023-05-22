@@ -1,4 +1,4 @@
-const BASE_URL = "http://192.168.1.100:3000";
+const BASE_URL = "http://localhost:3000";
 
 export const MOVIES_URL = BASE_URL + '/api/movies';
 
@@ -11,5 +11,5 @@ export const MOVIES_BY_NAME_URL = MOVIES_URL + '/name/';
 export const MOVIES_REPARTO_URL = BASE_URL + '/api/reparto';
 export const MOVIES_BY_REPARTO_URL = MOVIES_REPARTO_URL + '/';
 
-export const USER_LOGIN_URL = BASE_URL + '/api/user/login';
+export const USER_LOGIN_URL = BASE_URL + '/api/users/login';
 

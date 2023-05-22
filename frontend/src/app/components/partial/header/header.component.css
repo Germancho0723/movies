@@ -8,18 +8,39 @@
 }
 .navbar-session {
   color: white;
-  padding-right: 3rem;
+  padding-right: 2rem;
 }
-.navbar a:link {
+.navbar-login {
+  color: white;
+  padding-right: 2rem;
+}
+.navbar-logout {
+  color: white;
+  padding-right: 2rem;
+}
+
+.navbar-logout:hover {
+  color: black;
+}
+
+.d-flex {
+  align-items: center;
+  text-align: center;
+}
+
+a:link {
   text-decoration: none;
 }
-.navbar a:visited {
+
+a:visited {
   text-decoration: none;
 }
-.navbar a:hover {
+
+a:hover {
   text-decoration: none;
 }
-.navbar a:active {
+
+a:active {
   text-decoration: none;
 }
 
